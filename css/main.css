@@ -1,0 +1,389 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke|zocial);
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+    font-family: 'IconicStroke', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+@font-face {
+    font-family: "Your typeface";
+    src: url("type/filename.eot");
+    src: local("Alternate name"), local("Alternatename"),
+        url("type/filename.woff") format("woff"),
+        url("type/filename.otf") format("opentype"),
+        url("type/filename.svg#filename") format("svg");
+}
+@font-face {
+    font-family: "Your italic typeface";
+    src: url("type/filename-ital.eot");
+    src: local("Alternate name"), local("Alternatename"),
+        url("type/filename-ital.woff") format("woff"),
+        url("type/filename-ital.otf") format("opentype"),
+        url("type/filename-ital.svg#filename-ital") format("svg");
+}
+
+
+
+
+* {
+    margin:0x;
+    padding:0px;
+    list-style-type: none;
+    font-weight: 100;
+}
+
+body {
+    background: white;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+
+
+/* ---- Struktur ---- */
+
+.wrapper {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+   
+    
+}
+
+.main-content { 
+    width: 59%;
+    float: left;
+    padding: 2.4%;
+}
+header {
+    background-image: url(../images/header_start.svg);
+    background: url(../images/header_start.svg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.innerheader {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top:150px;
+}
+nav {
+    margin-top: 50px;
+ 
+
+}
+
+section {}
+
+article {}
+
+aside {}
+
+footer {
+    clear: both;
+    background: #184153;
+    padding: 30px;
+    color: white;
+    
+}
+.innerfooter {
+    width: 95%;
+    max-width: 1100px;
+    margin:0 auto;
+   
+    
+}
+
+.footerbox {
+    width: 25%;
+    height: 200px;
+   
+    float: left;
+    
+    border-right: 1px dashed #ccc;
+    padding-right: 4.9%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    color:white;
+    
+   
+    
+}
+.footerbox h5 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .f_icon {
+    font-size: 32px;
+    margin-right: 20px;
+    display: inline-block;
+
+    
+    
+}
+
+
+.education {
+    width: 21%;
+    float: left;
+}
+
+.edu_content {
+    width: 15%;
+    float: right;
+}
+
+/* ---- /Struktur ---- */
+
+/* ---- Nav ---- */
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+
+}
+/*
+nav ul li:first {
+margin-left: 0px;
+}
+*/
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-family: bebas_neueregular;
+    text-decoration: none;
+    transition: all 500ms;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #333;  
+}
+nav ul li a:hover {
+    color: #454545;
+}
+
+nav ul li a:hover {}
+
+/* ---- /Nav ---- */
+
+/* ---- Spec Nav ---- */
+
+.spec_box {
+background: #d1d1d1;
+}
+
+.spec_nav {
+    
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #009fe3;
+    
+}
+
+.spec_nav ul {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0;
+}
+.spec_nav li {
+    display: inline;
+}
+.spec_nav li a {
+    display: inline-block;
+    font-size: 16px;
+    width: 15.6%;
+    
+    background: green;
+    margin: 0px;
+    text-align: center;
+    font-family: bebas_neueregular;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 500ms;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.spec_nav li:nth-child(1) a {
+    background: #003d58;
+}
+.spec_nav li:nth-child(2) a {
+    background: #005578;
+}
+.spec_nav li:nth-child(3) a {
+    background: #006994;
+}
+.spec_nav li:nth-child(4) a {
+    background: #007cb0;
+}
+.spec_nav li:nth-child(5) a {
+    background: #008eca;
+}
+.spec_nav li:nth-child(6) a {
+    background: #009fe3;
+}
+.spec_nav li:hover a {
+    background: #ccc;
+}
+.spec {
+    
+    padding: 5px;
+    width: 10
+    
+}
+
+/* ---- / Spec Nav ---- */
+
+/* ----- Sub nav ------ */
+
+.subnav {
+    background: #91a0c3;
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    transition: all 500ms;
+}
+.education li:nth-child(1) .subnav {
+    background: #34495e;
+}
+.education li:nth-child(2) .subnav {
+    background: #8e44ad;
+}
+.education li:nth-child(3) .subnav {
+    background: #d35400;
+}
+.education li:nth-child(4) .subnav {
+    background: #16a085;
+}
+.education li:nth-child(5) .subnav {
+    background: #27ae60;
+}
+.education li:nth-child(6) .subnav {
+    background: #f39c12;
+}
+.education li:nth-child(7) .subnav {
+    background: #c0392b;
+}
+
+
+.edu_content ul:nth-child(3) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(5) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(7) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(9) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(11) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(13) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(15) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(17) .subnav {
+    background: #006994;
+}
+.subnav:hover {
+    margin-left: -15px;
+    
+}
+/* ----- / Sub nav ------ */
+
+/* ---- Typografi ---- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bebas_neueregular;
+    padding: 0px;
+    margin: 0px;
+}
+/* Logotyp */
+h1 {
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.51);
+}
+/* Rubrik för ämne */
+h2 {
+    font-size: 5.4em;
+    color: #808080;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 2.4em;
+    color: #808080;
+    padding-top: 40px;
+  
+}
+/* Rubrik för nya content_blocken */
+h4 {
+    font-size: 2.4em;
+    color: #808080;
+    padding-top: 40px;
+    
+}
+/* Underrubik för kategorier och läs vidare */
+h5 {
+    font-size: 1.3em;
+    color: #555;
+}
+
+h6 {}
+
+p {}
+
+.copy {
+    font-family:;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.6em;
+    margin-top: 50px;
+    border-top:1px solid #848484;
+    padding-top: 5px;
+}
+
+/* ---- FIX ---- */
+.fix {
+    clear: both;
+}
+/* ---- /FIX ---- */
+
+.na {
+    opacity: 0.5;
+}

@@ -1,0 +1,68 @@
+header {
+    background-image: url(../images/header_prog.svg);
+    background: url(../images/header_prog.svg);
+    background-size: cover;
+}
+
+.spec_nav {
+
+
+    background: #ac53d6;
+
+}
+
+.spec_nav li:nth-child(1) a {
+    background: #3d1e4b;
+}
+.spec_nav li:nth-child(2) a {
+    background: #562a6a;
+}
+.spec_nav li:nth-child(3) a {
+    background: #6d3586;
+}
+.spec_nav li:nth-child(4) a {
+    background: #7d3d9b;
+}
+.spec_nav li:nth-child(5) a {
+    background: #9147b4;
+}
+.spec_nav li:nth-child(6) a {
+    background: #ac53d6;
+}
+.spec_nav li:hover a {
+    background: #ccc;
+}
+
+
+.edu_content ul:nth-child(3) .subnav {
+    background: #3d1e4b;
+}
+.edu_content ul:nth-child(5) .subnav {
+    background: #9147b4;
+}
+.edu_content ul:nth-child(7) .subnav {
+    background: #3d1e4b;
+}
+.edu_content ul:nth-child(9) .subnav {
+    background: #9147b4;
+}
+.edu_content ul:nth-child(11) .subnav {
+    background: #3d1e4b;
+}
+.edu_content ul:nth-child(13) .subnav {
+    background: #9147b4;
+}
+.edu_content ul:nth-child(15) .subnav {
+    background: #3d1e4b;
+}
+.edu_content ul:nth-child(17) .subnav {
+    background: #9147b4;
+}
+
+
+footer {
+   
+    background: #3d1e4b;
+ 
+
+}

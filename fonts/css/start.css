@@ -1,0 +1,151 @@
+
+
+.navbox {
+    width: 240px;
+    height: 150px;
+    background: green;
+    padding: 20px;
+    position: relative;
+    float: left;
+    margin-right: 80px;
+    margin-top: 60px;
+    
+}
+
+.navbox_images {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 200px;
+    position: absolute;
+    left: 230px;
+    top: -40px;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+ 
+    padding-top: 35px;
+    box-sizing: border-box;
+    
+    
+}
+
+.navbox icon {
+    display: block;
+  
+}
+.navbox_images img {
+    width: auto;
+    height: 100%;
+}
+.start_wrapper {
+    background: red;
+    width: 1100px;
+    margin: 0 auto;
+    height: ;
+    
+}
+
+h3 {
+color: white;
+font-size: 23px;
+    margin-top: -40px;
+
+}
+
+.icon {
+    font-size: 3em;
+}
+
+
+.webut {
+    background: #34495e;
+}
+
+.webut_icon {
+    background: #2c3e50;
+}
+
+.prog {
+    background: #8E44AD;
+}
+
+.prog_icon {
+    background: #5d2c6f;
+}
+
+.digi {
+    background: #27AE60;
+}
+
+.digi_icon {
+    background: #1f884b;
+}
+
+.grans {
+    background: #16A085;
+}
+
+.grans_icon {
+    background: #0f715e;
+}
+.webbprog {
+    background: #D35400;
+}
+
+.webbprog_icon {
+    background: #9b3e00;
+}
+
+.articel {
+    background: #e67e22;
+}
+.articel_icon {
+    background: #d35400;
+}
+
+
+.start_coloums {
+    width: 30%;
+    height: auto;
+    min-height: 300px;
+   
+    float: left;
+    margin-right: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

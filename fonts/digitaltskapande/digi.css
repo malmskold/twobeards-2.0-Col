@@ -1,0 +1,68 @@
+header {
+    background-image: url(../images/header_digi.svg);
+    background: url(../images/header_digi.svg);
+    background-size: cover;
+}
+
+.spec_nav {
+
+
+    background: #31de76;
+
+}
+
+.spec_nav li:nth-child(1) a {
+    background: #15562F;
+}
+.spec_nav li:nth-child(2) a {
+    background: #1f7c44;
+}
+.spec_nav li:nth-child(3) a {
+    background: #249651;
+}
+.spec_nav li:nth-child(4) a {
+    background: #28ad5d;
+}
+.spec_nav li:nth-child(5) a {
+    background: #2dc66a;
+}
+.spec_nav li:nth-child(6) a {
+    background: #31de76;
+}
+.spec_nav li:hover a {
+    background: #ccc;
+}
+
+
+.edu_content ul:nth-child(3) .subnav {
+    background: #15562F;
+}
+.edu_content ul:nth-child(5) .subnav {
+    background: #28ad5d;
+}
+.edu_content ul:nth-child(7) .subnav {
+    background: #15562F;
+}
+.edu_content ul:nth-child(9) .subnav {
+    background: #28ad5d;
+}
+.edu_content ul:nth-child(11) .subnav {
+    background: #15562F;
+}
+.edu_content ul:nth-child(13) .subnav {
+    background: #28ad5d;
+}
+.edu_content ul:nth-child(15) .subnav {
+    background: #15562F;
+}
+.edu_content ul:nth-child(17) .subnav {
+    background: #28ad5d;
+}
+
+
+footer {
+   
+    background: #15562F;
+ 
+
+}

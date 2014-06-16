@@ -1,0 +1,246 @@
+			<!---- Prism JS ---->
+			
+			<!--- 
+			
+			HTML 
+			<pre><code class="language-markup">&lt;p class=&quot;red&quot;&gt;red text &lt;/p&gt;</code></pre>
+            
+            Javascript
+            <pre><code class="language-javascript">var jeff = 'jeff';</code></pre>
+            
+            CSS
+            <pre><code class="language-css">p { color:red; }</code></pre>
+			----->
+
+
+
+<section class="main-content">
+    <h2>Webbutveckling 1</h2>
+    <p class="ingress"><em>
+        Kursen webbutveckling 1 är en del i skolverkets block webbteknik och syftar till att ge dig som elev en bra förståelse för hur webbsidor och webbapplikationer är konstruerade och vad som är viktigt att förhålla sig till när det kommer till innehåll, navigation, färg, form, tillgänglighet och hur din produkt fungerar på olika plattformar så som laptops, mobiltelefon och suftplattor.</em>
+        <br><br>
+        <a href="http://www.skolverket.se/laroplaner-amnen-och-kurser/gymnasieutbildning/gymnasieskola/sok-amnen-kurser-och-program/subject.htm?lang=sv&subjectCode=web&tos=gy" target="_blank">Läs mer om kursen och betygskriterierna på skolverket.</a>
+
+    </p>
+    <p>
+        För att navigera genom materialet om webbutveckling så har du två menyer. En ovanför och en till höger. Den menyn till höger kommer att förändras i takt med vilket kapitel du tittar på.
+    </p>
+    <h2>Grundtaggar</h2>
+    <article class="content_block">
+        <h4>HTML</h4>
+        <p class="brodtext">
+            Förkortningen HTML står för Hyper Text Markup Language och är det märkspråk som webbsidor är konstruerade med. När en webbläsare läser in en hemsida som innehåller en starttagg med HTML så förstår den hur dokumentet skall rederas upp. Därför är det viktigt att varje dokument startar och avslutas med taggen HTML.
+
+        </p>
+        <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup">&lt;html lang="sv"&gt;
+Innehåll
+&lt;/html&gt;</code></pre>
+            
+
+
+        <h6>Läs mer</h6>
+        <ul>
+            <li><a href="http://www.w3schools.com/html/html_intro.asp" target="blank">w3schools</a></li>
+
+
+        </ul>
+    </article>
+  
+      <article class="content_block">
+        <h4>Doctype</h4>
+
+        <p class="brodtext">
+            Märkspråket HTML finns i flera olika versioner. Beroende lite på vilken version man använder så finns det olika element som kan användas. För varje generation har det tillkommit element men det har också försvunnit vissa funktioner som dels blivit överflödiga eller ej ses som korrekta.
+
+            <br><br>
+            Det är viktigt att vara tydlig för webbläsaren vilken version man använder. Därför börjar hela HTML dokumentet med en DOCTYPE.
+            <br><br>
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre><code class="language-markup">&lt;!DOCTYPE html>
+&lt;html>
+&lt;/html>
+<html></code></pre>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="http://www.w3schools.com/tags/tag_doctype.asp" target="_blank">w3schools</a></li>
+
+
+    </ul>
+</article>
+
+
+      <article class="content_block">
+        <h4>Head</h4>
+
+        <p class="brodtext">
+        Om man ser en hemsida som en människa så finns det flera namn som har lånats. Så som head, body och footer.<br><br>
+
+        I head taggen så skriver vi kod och funktioner som inte direkt kommer vara visuellt synligt på hemsidan. Om man skall ladda in externa css-dokument eller javascript kod som exempel. Eller vilken uppsättning täcken som skall finnas på hemsidan.
+
+        Element som skall finnas representerade innanför head taggen är följande.
+        Title, 
+        Meta,
+        Link.
+
+    </p>
+
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup">
+&lt;head>
+	&lt;title>Min hemsida&lt;/title>
+	&lt;meta charset="utf-8">
+	&lt;link href="style.css" rel="stylesheet" type="text/css">
+&lt;/head>
+<html></code></pre>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="www.w3schools.com/tags/tag_head.asp" target="_blank">w3schools</a></li>
+    </ul>
+</article>
+
+
+<article class="content_block">
+        <h4>Title</h4>
+
+        <p class="brodtext">
+        Title är precis som det låter titeln på hemsidan. Den sys inte direkt på hemsidan men är viktigare än man tror. Det direkt synliga av title taggen är det som står i fliken på webbläsaren. Se bild nedan.<br><br>
+
+        Men kanske än viktigare är det det som står i titletaggen som blir den klickbara länken när får sökresultatet på google / bing eller annan sökmotor. Titel taggen är även viktigt när man talar om SEO eller sökmotoropptimering.
+
+    </p>
+
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup">
+&lt;title> Twobeards hemsida &lt;title>
+<html></code></pre>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="http://www.w3schools.com/tags/tag_title.asp" target="_blank">w3schools</a></li>
+    </ul>
+</article>
+
+<article class="content_block">
+        <h4>Meta</h4>
+
+        <p class="brodtext">
+			Meta taggen är inte synlig på hemsidan men den innehåller information om informationen på hemsidan. Meta taggen läs av webbläsaren och sökmotorer för att förstå vad det är för information som kommer att presenteras. Det finns några viktiga värden som är viktiga att känna till.</p>
+<p class="brodtext">
+
+<b>Description</b> – Vad den aktuella hemsidan handlar om.<br>
+<b>Keywords</b> – Vissa viktiga nyckelord för sökmotorerna att förklarar innehållet.<br>
+<b>Author</b> – Vem det är som har skapat innehållet.</p>
+<p class="brodtext">
+
+Även attributet charset är viktigt då det hjälper webbläsaren att läsa in rätt teckenuppsättning. Den svenska språket innehåller som känt är ÅÄÖ och för att dessa skall visas upp på ett rätt sätt så anger man UTF-8 som teckenuppsättning. </p>
+
+		</p>
+
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup">
+&lt;head>
+	&lt;meta charset="UTF-8">
+	&lt;meta name="description" content="Utbildningsite för webbutveckling">
+	&lt;meta name="keywords" content="HTML,CSS,JavaScript,PHP,Wordpres">
+	&lt;meta name="author" content="Erik Malmsköld">
+&lt;/head> 
+<html></code></pre>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="http://www.w3schools.com/tags/tag_meta.asp" target="_blank">w3schools</a></li>
+    </ul>
+</article>
+
+<article class="content_block">
+        <h4>Body</h4>
+
+        <p class="brodtext">
+		Efter vi nu klarat av head taggen så kommer vi in på body taggen. Innan för start och sluttaggen för body så skall du placera allt innehåll som besökaren skall kunna se på hemsidan. Det är navigation, länkar, text, bilder, video och mycket mer.</p>
+<p class="brodtext">
+Det är också body-taggen som kan styra allt utseende på hemsidan. Med hjälp av CSS så kan du lägga upp de generella reglerna som påverkar allt gällande utseende. Läs mer på CSS-kapitlet 
+
+		</p>
+
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup">
+&lt;!DOCTYPE html>
+&lt;html>
+	&lt;head>
+		&lt;title> Twobeards hemsida &lt;title>
+		&lt;meta charset="UTF-8">
+		&lt;meta name="description" content="Utbildningsite för webbutveckling">
+		&lt;meta name="keywords" content="HTML,CSS,JavaScript,PHP,Wordpres">
+		&lt;meta name="author" content="Erik Malmsköld">
+	&lt;/head>
+	
+	&lt;body>
+		Här kommer det visuella innehåller
+		Text, bilder mm.
+	&lt;/body>
+&lt;/html> 
+<html></code></pre>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="http://www.w3schools.com/tags/tag_body.asp" target="_blank">w3schools</a></li>
+    </ul>
+</article>
+
+    <h2>Typografi</h2>
+<article class="content_block">
+        <h4>H1-H6</h4>
+
+        <p class="brodtext">
+		För att hjälpa läsaren är det viktigt att rätta bra rubrik. Med hjälp av taggarna H1 till H6 så kan du förtydliga för läsaren vad som är huvudrubrik och underrubrik. Dessa taggar har en standardutseende som man enkelt kan ändra med hjälp av CSS.</p>
+ <p class="brodtext">
+Vad man skriver innanför dessa rubriktaggar har också en betydelse när man tittar på SEO eller sökmotoroptimering. Google och Bing värderar det du har skrivit inom H1 taggen högre än det du skrivit med H6 taggen. Så fundera igenom vad som är viktigast och skriv denna text inom H1. Läs mer om SEO.
+		</p>
+
+            
+    </p>
+    <h5>Exempel</h5>
+
+        <pre class="line-numbers"><code class="language-markup ">
+&lt;body>
+&lt;!---- Rubrik taggar H1-H6 ---->
+	&lt;h1>H1 Huvudrubrik&lt;/h1>
+	&lt;h2>H2 Underrubrik&lt;/h2>
+	&lt;h3>H3 Underrubrik&lt;/h3>
+	&lt;h4>H4 Underrubrik&lt;/h4>
+	&lt;h5>H5 Underrubrik&lt;/h5>
+	&lt;h6>H6 Underrubrik&lt;/h6>
+&lt;/body>
+</code></pre><br><br><br>
+<h5>Resultat</h5>
+<p data-height="303" data-theme-id="1512" data-slug-hash="zgjew" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/malmskold/pen/zgjew/'>zgjew</a> by malmskold (<a href='http://codepen.io/malmskold'>@malmskold</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+    <h6>Läs mer</h6>
+    <ul>
+        <li><a href="http://www.w3schools.com/tags/tag_body.asp" target="_blank">w3schools</a></li>
+    </ul>
+</article>
+
+
+</section>
+
