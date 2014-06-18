@@ -364,7 +364,11 @@ h5 {
     color: #555;
 }
 
-h6 {}
+h6 {
+    font-size: 1.3em;
+    color: #333;
+
+}
 
 p {}
 
@@ -376,6 +380,24 @@ p {}
     margin-top: 50px;
     border-top:1px solid #848484;
     padding-top: 5px;
+}
+
+article a.more {
+
+    padding: 10px 25px;
+    margin: 10px;
+    background: #585858;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #585858, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #333;
+    font-weight: normal;
 }
 
 /* ---- FIX ---- */

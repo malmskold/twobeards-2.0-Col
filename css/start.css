@@ -98,10 +98,16 @@ font-size: 23px;
 }
 
 .articel {
-    background: #e67e22;
+    background: #e74c3c;
 }
 .articel_icon {
-    background: #d35400;
+    background: #c0392b;
+}
+.articel_2 {
+    background: #f1c40f;
+}
+.articel_icon_2 {
+    background: #f39c12;
 }
 
 
@@ -122,9 +128,14 @@ font-size: 23px;
 
 
 
+a {
+color: white;
+}
 
-
-
+.start_nav_box p {
+font-size: 0.9em;
+line-height: 18px;
+}
 
 
 
