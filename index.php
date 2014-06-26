@@ -50,7 +50,7 @@ www.malmskold.com
                     </div>
                 </a>
                 <a class="start_nav_box" href="index_webb.php">
-                    <div class="navbox articel">
+                    <div class="navbox articel na">
                         <div class="navbox_images articel_icon">
                             <span class="iconicstroke-iphone icon"></span>
                         </div>
@@ -123,11 +123,13 @@ www.malmskold.com
 
         </section>
 
-
+      
     </div>
     <div class="fix"></div>
 
-
+    <section class="start_wrapper">
+     <h2>Kunskap, Färdighet, Förståelse, Attityd</h2>    
+    </section>
 <?php include("footer.html"); ?>
 
 
